@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<body>
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('gym.jpg');
+            font-family: 'Oswald', sans-serif;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 7px;
+            
+        
+        }
+        .left div{
+            text-align: center;
+        }
+        .left img{
+            width: 99px;
+        }
+        .mid{
+            display: block;
+    width: 33%;
+    margin: 7px auto;
+    
+    padding: 6px 42px;
+            
+            
+
+        }
+        .right{
+            display: inline-block;
+            
+            position: absolute;
+            right: 34px;
+            top: 24px;
+        }
+        .btn{
+            margin:0px 9px;
+            background-color: black;
+            color: white;
+            padding: 16px 23px;
+            border: 2px grey;
+            border-radius: 24px solid grey;
+            cursor: pointer;
+            font-family: 'Oswald', sans-serif;
+
+        }
+        .btn:hover{
+            background-color: grey;
+
+        }
+        .navbar{
+            display:inline-block
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 21px;
+            margin: 2px;
+            
+
+        }
+        .navbar li a{
+            
+            color: white;
+            text-decoration: none;
+            padding:16px 10px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: grey;
+        }
+        .container{
+            border: 2px solid rgb(141, 141, 141);
+            position: absolute;
+            right: 750px;
+            margin: 24px 12px;
+            padding: 44px 50px;
+            width: 477px;
+            border-radius:24px;
+            top: 132px;
+        }
+        .formgroup input{
+            text-align: center;
+    display: block;
+    padding: 3px;
+    border: 3px solid black;
+    margin: 7px auto;
+    width: 258px;
+    font-family: 'Oswald', sans-serif;
+}
+        
+        .conatainer h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 57% ;
+            margin:auto;
+        }
+
+    
+    </style>
+    
+</body>
+<header class="web">
+    <div class="left">
+        <img src="gym2.jpg" alt="" srcset="">
+ Ashish Fintness
+
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Fintness calculator</a></li>
+        </ul>
+
+    </div>
+    <div class="right">
+        <button class="btn">Call us NOW</button><button class="btn">Email Us</button>
+
+    </div>
+
+  
+</header>
+<div class="container">
+    <h1>join the best gym of RawatBhata now</h1>
+    <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text"  name="" placeholder="Enter your name">
+        </div>
+        <div class="formgroup">
+            <input type="text"  name="" placeholder="Enter your age">
+        </div>
+        <div class="formgroup">
+            <input type="text"  name="" placeholder="Enter your gender">
+        </div>
+        <div class="formgroup">
+            <input type="text"  name="" placeholder="Enter your locality">
+        </div>
+       <div>
+        <button class="btn">Submit</button>
+       </div> 
+    </form>
+</div>
+</html>

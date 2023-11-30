@@ -1,0 +1,10 @@
+body{
+    background-color: red;
+}
+.isolation{
+    display: flex;
+    flex-direction: column;
+}
+#clientsbro{
+    overflow: hidden;
+}
